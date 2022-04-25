@@ -17,8 +17,7 @@ ROS package for running yolov3 with USB_CAM_node
 > Download the required packages by 
 > ```bash
 > # In your catkin_ws/src/
-> git clone https://github.com/hjinnkim/object_msg_YOLOv3_ros.git
-> git clone https://github.com/hjinnkim/yolov3_pytorch_ros.git
+> git clone https://github.com/hjinnkim/yolov3-pytorch-ros.git
 > cd yolov3_pytorch_ros/weights
 > sh download_weights.sh
 > ```
