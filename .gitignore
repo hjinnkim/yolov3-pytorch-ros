@@ -1,0 +1,9 @@
+/**/*.pyc
+/yolov3-ros/src/calc_delay.py
+/yolov3-ros/src/limo_control_node.py
+/**/*.weights
+/**/*.pth
+/yolov3-ros/launch/yolov3-tiny-traffic.launch
+/yolov3-ros/src/cfg/yolov3-tiny-custom.cfg
+/**/.vscode
+/.vscode
