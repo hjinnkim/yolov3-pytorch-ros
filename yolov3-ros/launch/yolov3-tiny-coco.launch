@@ -20,6 +20,6 @@
         <param name="weight_path" type="string" value="$(arg weight_path)/$(arg weight_name)" />
         <param name="class_path" type="string" value="$(arg class_path)/$(arg class_name)" />
         <param name="color_path" type="string" value="$(arg color_path)" />
-        <remap from="image" to="/camera/rgb/image_raw/compressed"/>
+        <remap from="image" to="/usb_cam/image_raw/compressed"/>
     </node>
 </launch>
