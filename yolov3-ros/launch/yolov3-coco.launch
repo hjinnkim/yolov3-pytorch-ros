@@ -22,5 +22,4 @@
         <param name="color_path" type="string" value="$(arg color_path)" />
         <remap from="image" to="/usb_cam/image_raw/compressed"/>
     </node>
-        
 </launch>
