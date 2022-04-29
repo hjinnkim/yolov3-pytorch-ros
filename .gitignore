@@ -3,6 +3,7 @@
 /yolov3-ros/src/limo_control_node.py
 /**/*.weights
 /**/*.pth
+/**/*conv*
 /yolov3-ros/launch/yolov3-tiny-traffic.launch
 /yolov3-ros/src/cfg/yolov3-tiny-custom.cfg
 /**/.vscode
