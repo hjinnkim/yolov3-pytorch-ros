@@ -6,8 +6,8 @@
     <arg name="config_path" default="$(find yolov3-ros)/src/cfg" />
     <arg name="class_path" default="$(find yolov3-ros)/src/data" />
 
-    <arg name="weight_name" default="yolov3_ckpt_100_tiny.pth" />
-    <arg name="config_name" default="yolov3-tiny.cfg" />
+    <arg name="weight_name" default="yolov3_ckpt_100.pth" />
+    <arg name="config_name" default="yolov3.cfg" />
     <arg name="class_name" default="custom.names" />
 
     <node pkg="yolov3-ros" type="yolov3_ros.py" name="yolov3_node" output="screen">
