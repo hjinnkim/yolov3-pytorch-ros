@@ -9,6 +9,7 @@ project(object_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
+  geometry_msgs
   message_generation
 )
 
@@ -50,6 +51,9 @@ add_message_files(
   FILES
   ObjectArray.msg
   Object.msg
+  ObjectDistance.msg
+  ObjectDistanceArray.msg
+  ObjectPointArray.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -70,6 +74,7 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  geometry_msgs
 )
 
 ################################################
@@ -102,7 +107,7 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
- CATKIN_DEPENDS std_msgs
+ CATKIN_DEPENDS std_msgs geometry_msgs message_runtime
 )
 
 ###########
